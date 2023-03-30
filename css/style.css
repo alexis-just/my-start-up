@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Fasthand&family=Poppins:wght@100&display=swap")
+
+@import url("components/container.css");
+
+@import url("components/avatar.css");
+
+@import url("components/button.css");
+
+@import url("components/banner.css");
+
+@import url("components/card.css");
+
+body{
+	font-family: 'Poppins', sans-serif;
+	font-size: 18px;
+	margin: 0px;
+}
+
+h1,h2,h3{
+	font-family: 'Fasthand', cursive;
+	font-weight:bold;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+a{ 
+	text-decoration: none;
+}
+
+/* Adjustments with id */
+#features{
+	padding: 64px 0px;
+}
+
+.footer {
+  background-color: black;
+  padding: 24px;
+  color: white;
+}
+.footer a {
+  color: white;
+  font-size: 32px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+.list-inline li {
+  display: inline;
+  padding: 0px 8px;
+}
